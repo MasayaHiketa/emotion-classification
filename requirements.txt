@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+pandas
+pyarrow
+scikit-learn
+tqdm
+pyyaml
+fastapi
+uvicorn
+line-bot-sdk
+python-multipart
+transformers==4.57.2
+torch
+numpy
+python-dotenv

@@ -1,0 +1,11 @@
+model_name: "distilbert-base-uncased"
+
+
+train_data: "data/train.parquet"
+
+max_len: 64
+batch_size: 8
+lr: 3e-5
+epochs: 2
+
+output_dir: "outputs"

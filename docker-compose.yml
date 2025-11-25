@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    container_name: emotion-fastapi
+    restart: always
+    volumes:
+      - ./outputs:/app/outputs
+    expose:
+      - "8000"
+
+  nginx:
+    image: nginx:latest
+    container_name: emotion-nginx
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
