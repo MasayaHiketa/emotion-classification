@@ -10,9 +10,6 @@
 
 <img src="./qr.png" width="260" alt="QR Code">
 
-或直接點擊以下連結加入：  
-[加入 LINE Bot](https://line.me/R/ti/p/xxxxxxxxxx)
-
 ---
 
 ## Bot 功能说明  
@@ -25,6 +22,7 @@
 ---
 
 ## Demo Example  
+
 
 
 
